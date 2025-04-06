@@ -6,9 +6,7 @@
 
 class CustomShape : public ShapeBase {
 public:
-    CustomShape() {
-        m_shape = TopoDS_Shape();  // 初始化为空形状
-    }
+
     CustomShape() {
         BRepBuilderAPI_MakePolygon poly;
         poly.Add(gp_Pnt(0, 0, 0));
