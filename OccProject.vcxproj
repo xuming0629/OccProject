@@ -108,6 +108,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -132,6 +133,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GeometryIO.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ShapeViewer.cpp" />
   </ItemGroup>
@@ -140,6 +142,7 @@
     <ClInclude Include="ConeShape.h" />
     <ClInclude Include="CustomShape.h" />
     <ClInclude Include="CylinderShape.h" />
+    <ClInclude Include="GeometryIO.h" />
     <ClInclude Include="ShapeBase.h" />
     <ClInclude Include="ShapeViewer.h" />
   </ItemGroup>
