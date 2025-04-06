@@ -1,0 +1,23 @@
+# 编译输出
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
+*.ilk
+
+# VS 配置文件
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+occt-vc144-64
+x64/
+OccProject/
